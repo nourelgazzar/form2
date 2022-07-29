@@ -11,12 +11,12 @@ import CreateEmployee from "./Pages/CreateEmployee";
 function App() {
   return (
     <div>
-      <NavBar />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/create" element={<CreateEmployee />} />
           <Route path="/view" element={<ViewEmployee />} />
+          <Route path="/cv" element={<CV />} />
         </Routes>
       </BrowserRouter>
     </div>
